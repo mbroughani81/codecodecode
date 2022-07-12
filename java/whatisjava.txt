@@ -1,0 +1,22 @@
+sources:
+    https://jenkov.com/tutorials/java/what-is-java.html
+
+Diffrent types of compilers:
+    https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
+
+* java is interpreted language and has an JIT to improve perfomance. 
+
+About JIT:
+    https://www.ibm.com/docs/en/ztpf/1.1.0.15?topic=reference-jit-compiler
+
+1.png:
+    components of jre are jvm and java se api.
+    jdk composes of interpreter(java)[that interpretes the bytecode], compiler(javac)[that compiles java code to bytecode]
+    picture shows java platform, standard edition. there are enterprise and embedded editions too.
+    
+Why java is platform-independent?:
+    (https://docs.oracle.com/en/java/javase/13/docs/specs/man/java.html)
+    (https://www.ibm.com/docs/en/ztpf/1.1.0.15?topic=reference-jit-compiler)
+    javac command compile any java program to bytecode.
+    java command, starts the JVM(the interpreter) and loads the bytecode(.class files). so if we have the bytecode, we can run the bytecode in any platform, given that it has JVM.
+

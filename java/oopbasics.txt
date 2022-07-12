@@ -1,0 +1,18 @@
+source:
+    https://www.freecodecamp.org/news/java-object-oriented-programming-system-principles-oops-concepts-for-beginners/
+    https://www.simplilearn.com/tutorials/java-tutorial/java-encapsulation
+    
+OOP principles:
+    * encapsulation: integrating data (variables) and code (methods) into a single unit.
+    Data Hiding in Java: default, protected, private, public keywords
+    
+    * inheritence:
+    
+    
+    * abstrction: process of hiding the implementation details and showing only functionality to the user.
+    
+    diffrence between abstract class and interface:
+        (https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html)
+        if you need to separate an interface from its implementation, use an Interface. if you need to provide a base class or default implementation for a group of methods, use  abstrct class. we can use them both with together also. for exmaple, for implementing a interface, we use a abstract class that implements some part of it. and we extend that abstract to implement other things.
+    
+    * polymorphism : the ability of an object to take on many forms
